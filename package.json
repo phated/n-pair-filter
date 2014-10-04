@@ -1,0 +1,34 @@
+{
+  "name": "n-pair-filter",
+  "version": "1.0.0",
+  "description": "Filter generated pairings for n-many sets",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -cv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phated/n-pair-filter"
+  },
+  "keywords": [
+    "n-pair",
+    "pairing",
+    "tuple",
+    "combination",
+    "permutation",
+    "enumerate",
+    "filter"
+  ],
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phated/n-pair-filter/issues"
+  },
+  "homepage": "https://github.com/phated/n-pair-filter",
+  "dependencies": {
+    "n-pair": "0.0.0"
+  },
+  "devDependencies": {
+    "lab": "^4.5.2"
+  }
+}

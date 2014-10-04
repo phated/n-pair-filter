@@ -24,6 +24,9 @@
   "bugs": {
     "url": "https://github.com/phated/n-pair-filter/issues"
   },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "homepage": "https://github.com/phated/n-pair-filter",
   "dependencies": {
     "n-pair": "0.0.0"

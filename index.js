@@ -2,10 +2,10 @@
 
 var npair = require('n-pair');
 
-function filterPairs(pairs, cb){
+function filterPairs(sets, cb){
   var filtered = [];
 
-  npair(pairs, function(pair){
+  npair(sets, function(pair){
     var result = cb(pair);
     if(result){
       filtered.push(pair);

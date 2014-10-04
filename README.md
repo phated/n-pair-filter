@@ -15,3 +15,13 @@ var pairs = filterPairs([[1, 2], [2]], function(pair){
 console.log(pairs);
 // [ [ 2, 2 ] ]
 ```
+
+## API
+
+### `filterPairs(sets, cb)`
+
+Pair each array in the array sets together in all the possible combinations, calling cb(pair) with each possible pairing and removing any results `cb` returns falsey for from the returned result.
+
+## License
+
+MIT

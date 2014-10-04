@@ -1,6 +1,8 @@
 n-pair-filter
 =============
 
+[![Build Status](https://travis-ci.org/phated/n-pair-filter.svg?branch=master)](https://travis-ci.org/phated/n-pair-filter)
+
 Filter generated pairings for n-many sets
 
 ## Usage
